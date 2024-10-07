@@ -1,36 +1,5 @@
-/*------------------------------------------------------------------
-    File Name: style.css
-    Template Name: Landigoo
-    Created By: MelodyThemes
-    Envato Profile: http://themeforest.net/user/melodythemes
-    Website: https://melodythemes.com
-    Version: 1.0
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-    [Table of contents]
-	
-	1. IMPORT FONTS
-    2. IMPORT FILES
-	3. SKELETON
-	  1.1. Preloader
-	  1.2. Scrollup
-	4. HEADER AREA
-	5. BANNER AREA
-	6. ABOUT AREA
-	7. SPECIAL-MENU AREA
-	8. MENU AREA
-	8. TEAM AREA
-	9. GALLERY AREA
-	10. BLOG AREA
-	11. PRICING AREA
-	12. RESERVATIONS AREA
-	13. FOOTER AREA
-	14. COPYRIGHT AREA
-	15. COLOR SWITCHER AREA
-	
--------------------------------------------------------------------*/
-
+ 
+ 
 /*------------------------------------------------------------------
     IMPORT FONTS
 -------------------------------------------------------------------*/
@@ -263,6 +232,8 @@ html, body{ height: 100%; }
 #header{}
 .logo{
 	float:left;
+
+   
 }
 .header-block-top{
 	position: absolute;
@@ -383,7 +354,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .banner{
-	background:url(https://3littlebirdsboutique.com/wp-content/uploads/2018/07/98981c527f88ff913c4e3f4ca447fc7e-shop-interiors-designers.jpg ) no-repeat center top;
+	background:url( https://lesliemcgwire.com/wp-content/uploads/2015/07/crockers-interior-with-ceiling-art-1.jpg) no-repeat center top;
 	background-attachment:fixed;
 	background-size:cover;
 	height:100vh;
@@ -403,7 +374,7 @@ html, body{ height: 100%; }
 .banner-cell {
     display: table-cell;
     vertical-align: middle;
-    color: #fff;
+    color: rgba(8, 8, 8, 0.938);
 }
 .banner-text h1 {
 	font-family: 'nautilus_pompiliusregular';
@@ -412,7 +383,7 @@ html, body{ height: 100%; }
     display: inline-block;
 	font-size: 74px;
     line-height: 100px;
-	color:#fff;
+	color:rgb(10, 11, 10);
 	padding-bottom: 0px;
 	padding-top:100px;
 }
@@ -428,7 +399,7 @@ html, body{ height: 100%; }
 .banner-text p{
 	font-family: 'Roboto', sans-serif;
 	font-size:18px;
-	color:#ccc;
+	color:rgb(232 214 43);
 	padding-bottom:35px;
 	margin:0px;
 }
@@ -445,7 +416,7 @@ html, body{ height: 100%; }
 	font-size:18px;
 }
 .book-btn a:hover{
-	border:3px solid red;
+	border:3px solid rgb(56, 55, 55);
 	background:none;
 }
 .hvr-underline-from-center {
@@ -465,7 +436,7 @@ html, body{ height: 100%; }
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: red;
+    background: rgb(69, 67, 67);
     height: 2px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -586,7 +557,9 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .about-main{
-	background:#E6E6E6;
+    
+    
+	background:hsl(120, 3%, 94%);
 }
 .pad-top-100{
     padding-top: 90px;
@@ -608,8 +581,9 @@ html, body{ height: 100%; }
 	font-weight: bold;
 }
 
-.
--images {
+.about-images {
+    
+    
     text-align: center;
     position: relative;
 }
@@ -652,14 +626,12 @@ html, body{ height: 100%; }
     right: 0;
 }
 
-    
-
 
 /*------------------------------------------------------------------
     SPECIAL-MENU AREA
 -------------------------------------------------------------------*/
 .special-menu{
-	background:url( https://nypost.com/wp-content/uploads/sites/2/2013/10/diamonds.jpg?quality=75&strip=all) no-repeat center;
+	background:url( https://c4.wallpaperflare.com/wallpaper/307/598/492/diamond-background-for-computer-wallpaper-preview.jpg) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
@@ -1048,7 +1020,7 @@ html, body{ height: 100%; }
 }
 
 .gallery-main .title-caption{
-	color: #666;
+	color: rgb(12, 12, 12);
 }
 
 /* new gallery */
@@ -1173,7 +1145,7 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .blog-main{
-	background:url(../images/blog_bg.jpg) no-repeat center;
+	background:url(https://images.unsplash.com/photo-1580582202907-d01fd0bd4c87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amV3ZWxyeSUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ) no-repeat center;
 	background-attachment:fixed;
 	background-size:cover;
 	position:relative;
@@ -1300,8 +1272,11 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .pricing-main{
-	background:url(../images/full-bg.png) no-repeat center ;
+	background:url( https://media.istockphoto.com/photos/gold-jewelry-diamond-shop-with-rings-and-necklaces-luxury-retail-picture-id845498088?b=1&k=20&m=845498088&s=170667a&w=0&h=RpVT1cSL4ZoSVHzSLLnn7IoDic-kCaP65FGkTqKb6mE=) no-repeat center ;
 	background-size:cover;
+    background-attachment:fixed;
+	 
+	position:relative;
 }
 
 .pricing-main h2{
@@ -1366,6 +1341,7 @@ html, body{ height: 100%; }
   margin: 0px;
 }
 
+
 .panel-body  p{
 	padding: 0px;
 	margin: 0;
@@ -1420,7 +1396,13 @@ html, body{ height: 100%; }
 -------------------------------------------------------------------*/
 
 .reservations-main{
-	
+ 
+        background:url(https://images.unsplash.com/photo-1580582202907-d01fd0bd4c87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amV3ZWxyeSUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ) no-repeat center;
+        background-attachment:fixed;
+        background-size:cover;
+        position:relative;
+        
+ 
 }
 
 .form-reservations-box{
@@ -1440,6 +1422,7 @@ html, body{ height: 100%; }
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
 	font-size:16px;
+    
 }
 
 .reservations-box{
@@ -1453,9 +1436,9 @@ html, body{ height: 100%; }
 
 .form-box input{
 	width:100%;
-	border:2px dotted #ccc;
+	border:2px dotted rgba(246, 241, 241, 0.945);
 	background:#f5f5f5;
-	color:#202020;
+	color:#f5f5f5;
 	padding:12px;
 	text-transform:capitalize;
 	border-radius: 4px;
@@ -1519,6 +1502,7 @@ html, body{ height: 100%; }
 
 .reserve-book-btn{
 	padding-top:30px;	
+    
 }
 
 .reserve-book-btn button a{
@@ -1526,7 +1510,7 @@ html, body{ height: 100%; }
 }
 
 .reserve-book-btn button:hover {
-    background: none;
+    background:url(  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6BsYf343Ae3SlTQyyO-gnawwDgTECiXOe6fWVU53-i-EvYM7Hm6I0s-JU3r0J4I0l3L0&usqp=CAU ) no repeat;
     color: #202020;
 }
 
@@ -1549,29 +1533,41 @@ html, body{ height: 100%; }
 textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:focus{
     outline: none !important;
 }
+/* pricing*/
+.pricing{
+    background: #494848;
+  }
+   
+/*
+credit
+*/
+.credi{
+ 
+    background:url(https://images.unsplash.com/photo-1580582202907-d01fd0bd4c87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8amV3ZWxyeSUyMHN0b3JlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ) no-repeat center;
+    background-attachment:fixed;
+    background-size:cover;
+    position:relative;
+    
+    
+    
 
+} 
+h1 {
+    color: #e3e8ee;
+}
+h3{
+    color:whitesmoke
+}
+h3{
+    color:hsl(0, 11%, 89%)
+}
+
+ 
 /*------------------------------------------------------------------
     FOOTER AREA
 -------------------------------------------------------------------*/
 
-.footer-main{}
-.footer-news{
-	background:url(../images/newsletter-bg.jpg) no-repeat center;
-	background-attachment:fixed;
-	background-size:cover;
-	position:relative;
-}
-
-.footer-news::before {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.50);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+ 
 
 .ft-title.color-white {
     color: #fff;
@@ -1603,7 +1599,7 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 	width:100%;
 	border:2px dotted #ccc;
 	background:#f5f5f5;
-	color:#202020;
+	color:hwb(0 5% 94%);
 	padding:12px;
 	text-transform:capitalize;
 	border-radius: 4px;
@@ -1632,7 +1628,129 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
 .footer-box{
 	background:#202020;
 }
-
+.about us{
+    color: #666;
+    
+}
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+    background: #494848;
+  }
+  .about .content {
+    padding: 0 80px;
+  }
+  .about .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #5f5950;
+  }
+  .about .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  .about .content p {
+    font-size: 15px;
+    color: #848484;
+  }
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .about .content ul li + li {
+    margin-top: 15px;
+  }
+  .about .content ul li {
+    position: relative;
+    padding-left: 26px;
+  }
+  .about .content ul i {
+    font-size: 20px;
+    color: #ffb03b;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  .about .video-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+  }
+  .about .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+  }
+  .about .play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  .about .play-btn::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate-btn 2s;
+    animation: pulsate-btn 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 176, 59, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+  }
+  .about .play-btn:hover::after {
+    border-left: 15px solid #ffb03b;
+    transform: scale(20);
+  }
+  .about .play-btn:hover::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 0;
+  } 
 /*.footer-in-main{
 	max-width:960px;
 	margin:0 auto;
@@ -1660,9 +1778,9 @@ textarea:focus, input:focus, select:focus, .bootstrap-select .dropdown-toggle:fo
     padding: 4px;
 }
 .footer-box {
-	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(..images/footer_background.jpg);
-	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
-	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(../images/footer_background.jpg);
+	background-image:-moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD26mpA0Qo2oOnYi18nX9J4pEWVu_Lr3lkv3OD3Tay1eMEz9RBS8QR4yktggyWW28Rw0w&usqp=CAU);
+	background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cmVzZXJ2YXRpb24lMjBqZXdlbGxhcnklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 );
+	background-image:radial-gradient(ellipse at center, rgba(0, 0, 0, 0.57) 0%,rgba(0, 0, 0, 0.87) 100%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh1dAjJ-BwORQpd7ErUEd8Xq0jnDqehsX4DFrilCzeyCQ5zyxq4xn8fiI8ffQnn7vW8nU&usqp=CAU );
 	background-color:#111;background-position:center;background-repeat:no-repeat;background-size:cover
 	}
 .socials-box li {
